@@ -28,9 +28,10 @@
     
 #a(5)
 
-def head_recursion(n:{__It__, __sub__}):
+def head_recursion(n):
     if n < 1:
         return n # base case
     
     head_recursion(n-1) # recursive call
     print(n)
+
